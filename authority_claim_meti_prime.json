@@ -1,0 +1,77 @@
+{
+    "$comment": [
+        "account type : gbiz id prime",
+        "registered using a commercial registration document which is issued by the Ministry of Justince"
+    ],
+    "sub": "1242",
+    "email": "yamada.tarou@example.co.jp",
+    "verified_claims": {
+      "verification": {
+        "trust_framework": "ja_digital_agency",
+        "time":"2020-04-23T18:25Z",
+        "verification_process":"f24c6f-6d3f-4ec5-973e-b0d8506f3bc7",
+        "assurance_level": "prime",
+        "evidence": [
+            {
+                "type": "document or API",
+                "validation_method": {
+                    "type": "Commercial registration",
+                    "policy": "Commercial Registration Act.",
+                    "procedure": "submitted on the gbiz id registration web"
+                },
+                "document_details": {
+                    "type": "Commercial registration document",
+                    "document_number": "?????",     <- 当金簿謄本の番号は法人番号と整理番号のみ
+                    "serial_number": "ア123456",   <- 整理番号の想定、ただサンプルを見ると「ア123456」というカナ＋数字形式
+                    "date_of_issuance": "2021-01-01",
+                    "date_of_expiry": "2030-12-31", <- 現状の登記簿謄本にはExpire情報がない？
+                    "issuer": {
+                        "name": "XX法務局", <- 管轄の法務局の出張所
+                        "country": "JA",
+                        "jursdiction": "JA"
+                    }
+                }
+            }
+        ]
+      },
+      "claims": {   <- 登記情報に記載の代表者の情報でいいのか？GビズIDプライムの申請者の属性にするのか？（ただ、検証済みであるという前提がある）
+        "given_name#ja-Hani-JP": "太郎",
+        "family_name#ja-Hani-JP": "山田",
+        "given_name#ja-Kana-JP": "タロウ",
+        "family_name#ja-Kana-JP": "ヤマダ",
+        "birthdate": "1980-01-01",
+        "address": {
+            "region": "13",
+            "locality#ja-Hani-JP": "港区",
+            "street_address#ja-Hani-JP": "〇〇〇丁目〇番〇号",
+            "postal_code": "0000000"
+        },
+        "phone_number": "11111111111",
+        "authority": [ {
+            "applies_to": {
+                "organization_name#ja-Hani-JP": "aaa 株式会社",
+                "organization_name": "aaa corporation",
+                "registration_number": "27101007182XX",
+                "registered_address": {
+                    "region": "13",
+                    "locality#ja-Hani-JP": "港区",
+                    "street_address#ja-Hani-JP": "〇〇〇丁目〇番〇号",
+                    "postal_code": "0000000"
+                },
+                "registered_jurisdiction": "?????"
+            },
+            "permission": [ {
+                "role": "代表",
+                "validity":[ {
+                    "start": "2018-03-02T10:00Z"
+                    }]
+            }],
+            "granted_by": {
+                "method": "登記情報から取得",
+                "granting_body": "法務省",
+                "reason": "登記情報として登録されているから"
+            }
+        }]
+      }
+    }
+}

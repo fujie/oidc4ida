@@ -6,29 +6,7 @@
         "trust_framework": "tf_digitalagency",
         "time":"2020-04-23T18:25Z",
         "verification_process":"f24c6f-6d3f-4ec5-973e-b0d8506f3bc7",
-        "assurance_level": "prime",
-        "evidence": [
-            {
-                "type": "document",
-                "validation_method": {
-                    "type": "法人登記",
-                    "policy": "法人登記に関する法律？",
-                    "procedure": "法務局DBへの登録？"
-                },
-                "document_details": {
-                    "type": "法人登記",
-                    "document_number": "xxxxxx",
-                    "serial_number": "xxxxxx",
-                    "date_of_issuance": "2021-01-01",
-                    "date_of_expiry": "2030-12-31",
-                    "issuer": {
-                        "name": "XX法務局",
-                        "country": "JA",
-                        "jursdiction": "JA"
-                    }
-                }
-            }
-        ]
+        "assurance_level": "member"
       },
       "claims": {
         "given_name#ja-Hani-JP": "太郎",
@@ -64,7 +42,7 @@
             }],
             "granted_by": {
                 "method": "????",
-                "granting_body": "????",
+                "granting_body": "primeの人のsub？",
                 "reason": "????"
             }
         }]

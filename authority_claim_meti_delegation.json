@@ -1,0 +1,81 @@
+{
+    "sub": "1242",
+    "email": "yamada.tarou@example.co.jp",
+    "verified_claims": {
+      "verification": {
+        "trust_framework": "tf_digitalagency",　　ー＞委任された人自体の確認を何に基づいて行ったか？
+        "time":"2020-04-23T18:25Z",
+        "verification_process":"f24c6f-6d3f-4ec5-973e-b0d8506f3bc7",
+        "assurance_level": "member"
+      },
+      ”verification": {  ->士業の人の資格をどうやって証明したか？、Claimsに士業のライセンス番号を入れてもいい
+
+    }
+
+      "claims": {
+        "given_name#ja-Hani-JP": "太郎",　　→委任された人の情報が入る
+        "family_name#ja-Hani-JP": "山田",
+        "given_name#ja-Kana-JP": "タロウ",
+        "family_name#ja-Kana-JP": "ヤマダ",
+        "birthdate": "1980-01-01",
+        "address": {
+            "region": "13",
+            "locality#ja-Hani-JP": "港区",
+            "street_address#ja-Hani-JP": "〇〇〇丁目〇番〇号",
+            "postal_code": "0000000"
+        },
+        "phone_number": "11111111111",
+        "authority": [ {
+            "applies_to": {
+                "organization_name#ja-Hani-JP": "aaa 株式会社",　→委任した側の情報
+                "organization_name": "aaa corporation",
+                "registration_number": "27101007182XX",
+                "registered_address": {
+                    "region": "13",
+                    "locality#ja-Hani-JP": "港区",
+                    "street_address#ja-Hani-JP": "〇〇〇丁目〇番〇号",
+                    "postal_code": "0000000"
+                },
+                "registered_jurisdiction": "?????"
+            },
+            "permission": [ {
+                "role": "????",
+                "validity":[ {
+                    "start": "2018-03-02T10:00Z"
+                    }]
+            }],
+            "granted_by": {
+                "method": "GビズIDの受委任機能",  -> 他にも電子委任状に基づき
+                "granting_body": "primeの人のsub？",
+                "reason": "委任された",
+                "txn": "電子委任に関する情報" ->証明書そのものを貼り付けることも可能
+            }}
+            ,{
+            "applies_to": {
+                "organization_name#ja-Hani-JP": "XXXX税理士法人",　→委任された側の企業情報
+                "organization_name": "xxx corporation",
+                "registration_number": "27101007182XX",
+                "registered_address": {
+                    "region": "13",
+                    "locality#ja-Hani-JP": "港区",
+                    "street_address#ja-Hani-JP": "〇〇〇丁目〇番〇号",
+                    "postal_code": "0000000"
+                },
+                "registered_jurisdiction": "?????"
+            },
+            "permission": [ {
+                "role": "????",
+                "validity":[ {
+                    "start": "2018-03-02T10:00Z"
+                    }]
+            }],
+            "granted_by": {
+                "method": "xxxx",
+                "granting_body": "社長",
+                "reason": "雇用関係にある"
+            }
+
+        }]
+      }
+    }
+}

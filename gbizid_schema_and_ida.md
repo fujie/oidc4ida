@@ -1,6 +1,6 @@
-# Comparison between the METI schema and the Authority claim schema
+# Comparison between the G-Biz ID schema and the Authority claim schema
 
-| METI | Mandatory | Authority Claim | Sample | Note |
+| G-Biz ID | Mandatory | Authority Claim | Sample | Note |
 | ---- | ---- | ---- | ---- | ---- |
 | sub | x | sub | 1242 | identifier of the subscriber |
 | account_type | x | - | 1 | account type of the METI's IdP. 1: gBizID entry, 2: gBizID prime, 3: gBizID member |

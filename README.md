@@ -39,4 +39,4 @@ G Biz ID entry accounts are self-issued accounts that anyone is able to be issue
 | Individuals provide claims to a relying party such as application system for grants before starting his/her business. | claims of the personnel. | no evidence of the personnel itself. | [here](./authority_claim_meti_entry.json)
 
 ## Other resoueces
-* [comparison between the METI's schema and the Authority Claim](./meti_schema_and_ida.md)
+* [comparison between the G-Biz ID schema and the Authority Claim](./gbizid_schema_and_ida.md)

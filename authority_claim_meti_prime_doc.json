@@ -10,17 +10,17 @@
         "trust_framework": "ja_digital_agency",
         "time":"2020-04-23T18:25Z",
         "verification_process":"f24c6f-6d3f-4ec5-973e-b0d8506f3bc7",
-        "assurance_level": "prime",
+        "assurance_level": "ial2",
         "evidence": [
             {
-                "type": "id_document",
+                "type": "document",
                 "validation_method": {
                     "type": "Commercial registration",
                     "policy": "Commercial Registration Act.",
                     "procedure": "submitted on the gbiz id registration web"
                 },
                 "document_details": {
-                    "type": "Commercial registration document",
+                    "type": "ja_commercial_register",
                     "document_number": "?????",     <- 当金簿謄本の番号は法人番号と整理番号のみ
                     "serial_number": "ア123456",   <- 整理番号の想定、ただサンプルを見ると「ア123456」というカナ＋数字形式
                     "date_of_issuance": "2021-01-01",

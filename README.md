@@ -14,7 +14,7 @@ The G-Biz ID provides three types of account as below.
 Note 1) the identity assurance level definition is based on NIST SP800-63A.  
 Note 2) G-Biz ID portal. [https://gbiz-id.go.jp/top/](https://gbiz-id.go.jp/top/)
 
-## Identity proofing scenario for each account type
+## Use-cases for each account type
 ### G-Biz ID prime
 Currently, the issuance of a G-Biz ID Prime account requires identity proofing through presenting a certified copy of the commercial register, which is issued by referring to a record in the corporate database held by the Ministry of Justice. In the near future, the Digital Agency and the Ministry of Justice will start providing commercial registry data through API and the G-Biz ID will be able to use the API on identity proofing process.
 

@@ -11,7 +11,7 @@ The G-Biz ID provides three types of account as below.
 | G-Biz ID member | Child-account of G-Biz ID prime. Only G-Biz ID prime account can issue the member account. | IAL2 |
 | G-Biz ID entry | Whoever can apply and get an entry account via G-Biz ID portal. | IAL1 |
 
-Note 1) the identity assurance level definition is based on NIST SP800-63A.
+Note 1) the identity assurance level definition is based on NIST SP800-63A.  
 Note 2) G-Biz ID portal. [https://gbiz-id.go.jp/top/](https://gbiz-id.go.jp/top/)
 
 ## Identity proofing scenario for each account type

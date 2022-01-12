@@ -3,7 +3,7 @@
     "email": "yamada.tarou@example.co.jp",
     "verified_claims": {
       "verification": {
-        "trust_framework": "tf_digitalagency",
+        "trust_framework": "ja_digital_agency",
         "time":"2020-04-23T18:25Z",
         "verification_process":"f24c6f-6d3f-4ec5-973e-b0d8506f3bc7",
         "assurance_level": "member"
@@ -41,8 +41,8 @@
                     }]
             }],
             "granted_by": {
-                "method": "????",
-                "granting_body": "primeの人のsub？",
+                "method": "G-Biz ID delegation function",
+                "granting_body": "subject of G-Biz ID prime account",
                 "reason": "????"
             }
         }]

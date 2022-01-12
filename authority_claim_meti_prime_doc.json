@@ -13,7 +13,7 @@
         "assurance_level": "prime",
         "evidence": [
             {
-                "type": "document or API",
+                "type": "id_document",
                 "validation_method": {
                     "type": "Commercial registration",
                     "policy": "Commercial Registration Act.",

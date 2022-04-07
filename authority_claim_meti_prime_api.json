@@ -21,7 +21,7 @@
                 },
                 "document_details": {
                     "type": "ja_commercial_register",
-                    "document_number": "?????",     <- 当金簿謄本の番号は法人番号と整理番号のみ
+                    "document_number": "?????",     <- 登記簿謄本の番号は法人番号と整理番号のみ
                     "serial_number": "ア123456",   <- 整理番号の想定、ただサンプルを見ると「ア123456」というカナ＋数字形式
                     "date_of_issuance": "2021-01-01",
                     "date_of_expiry": "2030-12-31", <- 現状の登記簿謄本にはExpire情報がない？

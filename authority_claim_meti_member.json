@@ -41,8 +41,8 @@
                     }]
             }],
             "granted_by": {
-                "method": "G-Biz ID delegation function",
-                "granting_body": "subject of G-Biz ID prime account",
+                "method": "gBizID delegation function",
+                "granting_body": "subject of gBizID prime account",
                 "reason": "????"
             }
         }]
